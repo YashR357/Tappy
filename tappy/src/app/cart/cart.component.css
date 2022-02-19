@@ -1,0 +1,19 @@
+body {
+    background-color: pink;
+}
+
+header {
+    text-align: center;
+}
+
+.column {
+    float: left;
+    width: 20%;
+    padding: 20px;
+  }
+  
+.row::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
