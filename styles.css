@@ -1,0 +1,14 @@
+.main {
+    display: grid;
+    text-align: center;
+    grid-template-columns: auto auto;
+    grid-template-rows: auto auto auto auto auto auto;
+}
+
+.outfit-picture {
+    border: 1px solid black;
+    grid-row: 1/5;
+}
+
+
+
