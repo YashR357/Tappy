@@ -12,6 +12,7 @@ import { CartComponent } from './cart/cart.component';
 import { NavBarComponent } from './nav-bar/nav-bar.component';
 import { MatTabsModule } from '@angular/material/tabs';
 import { LogoComponent } from './logo/logo.component';
+import { AboutUsComponent } from './about-us/about-us.component';
 
 @NgModule({
   declarations: [
@@ -21,7 +22,8 @@ import { LogoComponent } from './logo/logo.component';
     StyleComponent,
     CartComponent,
     NavBarComponent,
-    LogoComponent
+    LogoComponent,
+    AboutUsComponent
   ],
   imports: [
     BrowserModule,
