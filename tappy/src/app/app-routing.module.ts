@@ -1,13 +1,16 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
-import { TutorialsListComponent } from './components/tutorials-list/tutorials-list.component';
-import { TutorialDetailsComponent } from './components/tutorial-details/tutorial-details.component';
-import { AddTutorialComponent } from './components/add-tutorial/add-tutorial.component';
+import { CartComponent } from './cart/cart.component';
+import { HomepageComponent } from './homepage/homepage.component';
+import { ShopComponent } from './shop/shop.component';
+import { StyleComponent } from './style/style.component';
+
 const routes: Routes = [
-  { path: '', redirectTo: 'tutorials', pathMatch: 'full' },
-  { path: 'tutorials', component: TutorialsListComponent },
-  { path: 'tutorials/:id', component: TutorialDetailsComponent },
-  { path: 'add', component: AddTutorialComponent }
+  { path: '', redirectTo: 'home', pathMatch: 'full' },
+  { path: 'Home', component: HomepageComponent },
+  { path: 'Shop', component: ShopComponent },
+  { path: 'Cart', component: CartComponent },
+  {path: 'Style', component: StyleComponent}
 ];
 @NgModule({
   imports: [RouterModule.forRoot(routes)],
