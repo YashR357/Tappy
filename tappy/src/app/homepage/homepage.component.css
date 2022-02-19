@@ -1,15 +1,11 @@
 .brand {
-    font-size: 96px;
+    font-size: 36px;
   	font-family: Reenie Beanie;
     font-style: normal; 
     font-variant: normal;
-    margin: 0px;  
-}
-
-.logo {
-	display:flex;
-  flex-direction: row;
-  margin: 0 px;
+    margin: 0px;
+    margin: 0 px;
+  text-align: center;  
 }
 
 body {
