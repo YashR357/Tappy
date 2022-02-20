@@ -1,16 +1,54 @@
 .body {
     display: grid;
     grid-template-rows: auto auto auto;
+    grid-gap: 20px;
 }
 
 .room-service {
     text-align: center;
 }
 
-.toilet {
+.toiletries {
     text-align: center;
 }
 
 .food {
     text-align: center;
+}
+
+.btn {
+    margin-left: auto;
+    margin-right: auto;
+    height: 150px;
+    width: 300px;
+    background: none;
+    border: 2px solid black;
+    font-size: 20px;
+    font-weight: bold;
+    border-radius: 10px;
+    display: grid;
+    grid-template-rows: auto auto;
+    text-align: center; 
+}
+
+.img {
+    text-align: center;
+}
+
+.food-image{
+    height: 100px;
+    width: 150px;
+    margin-bottom: 10px;
+}
+
+.maid-image {
+    height: 100px;
+    width: 70px;
+}
+
+.toiletries-image {
+    height: 100px;
+}
+.button-text {
+    margin-top: 20px;
 }
