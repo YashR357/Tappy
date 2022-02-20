@@ -3,7 +3,18 @@
 
 
 }
-.title {
+h1 {
+  font-size: 80px;
+}
+.slogan{
+color: #123C69;
+position: absolute;
+top: 150px;
+left: 640px;
+text-align: center;
+font-size: 30px;
+}
+.tappy {
 color: #123C69;
 position: absolute;
 top: 30px;
@@ -12,12 +23,13 @@ text-align: center;
 font-size: 30px;
 }
 img{
-  height: 180px;
-  width: 130px;
+  height: 140px;
+  width: 90px;
 }
 .penguins{
   position: absolute;
-  left: 480px;
+  top: 90px;
+  left: 520px;
 
 }
 input{
@@ -35,12 +47,6 @@ input[type="text"]
 
 textarea:focus, input:focus{
     outline: 0;
-}
-
-.box{
-      position: relative;
-    top: 2px;
-    left: 1280px;
 }
 
 .text-box {
