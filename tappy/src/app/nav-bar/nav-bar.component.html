@@ -1,12 +1,7 @@
+<div [@.disabled]="true">
+<nav mat-tab-nav-bar mat-align-tabs="center" ngClass = "tabs">
+    <a mat-tab-link routerLink="/Home" >Home</a>
+    <a mat-tab-link routerLink="/SelectService" >Service</a>
+ </nav> 
+</div>
 
-<nav mat-tab-nav-bar mat-align-tabs="center" ngClass = "tabs-group" animationDuration="0ms" >
-    <a mat-tab-link routerLink="/Home" routerLinkActive="active-link" class="tabs">Home</a>
-    <a mat-tab-link routerLink="/Shop" routerLinkActive="active-link" class="tabs">Shop</a>
-    <a mat-tab-link routerLink="/Style" routerLinkActive="active-link" class="tabs">Style</a>
-     <a mat-tab-link routerLink="/AboutUs" routerLinkActive="active-link" class="tabs">About us</a>
-
- </nav>  
-
- <div>	
-   <router-outlet></router-outlet>	
- </div> 
