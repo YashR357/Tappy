@@ -1,13 +1,31 @@
  .home-input {
   text-align: center;
-  
-  
+
+
+}
+.title {
+color: #123C69;
+position: absolute;
+top: 30px;
+left: 630px;
+text-align: center;
+font-size: 30px;
+}
+img{
+  height: 180px;
+  width: 130px;
+}
+.penguins{
+  position: absolute;
+  left: 480px;
+
 }
 input{
 color: #AC3B61 !important;
     border:1px white;
     position: relative;
-top: 350px;
+    top: 280px;
+    left:10px;
 }
 input[type="text"]
  {
@@ -17,17 +35,18 @@ input[type="text"]
 
 textarea:focus, input:focus{
     outline: 0;
-} */
+}
 
 .box{
-      /* position: relative; */
-      top:2px;
-     float: right;
+      position: relative;
+    top: 2px;
+    left: 1280px;
 }
 
 .text-box {
-  text-align: center;
-} 
+  margin-left: 44vw;
+  	 margin-top: 42vh;
+}
 /* .text-box {
     margin-left: 44vw;
 	 margin-top: 42vh;
