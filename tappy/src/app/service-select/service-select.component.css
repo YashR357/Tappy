@@ -1,0 +1,16 @@
+.body {
+    display: grid;
+    grid-template-rows: auto auto auto;
+}
+
+.room-service {
+    text-align: center;
+}
+
+.toilet {
+    text-align: center;
+}
+
+.food {
+    text-align: center;
+}
