@@ -6,24 +6,17 @@ import { AppComponent } from './app.component';
 import { FormsModule } from '@angular/forms';
 import { HttpClientModule } from '@angular/common/http';
 import { HomepageComponent } from './homepage/homepage.component';
-import { ShopComponent } from './shop/shop.component';
-import { StyleComponent } from './style/style.component';
-import { CartComponent } from './cart/cart.component';
-import { NavBarComponent } from './nav-bar/nav-bar.component';
 import { MatTabsModule } from '@angular/material/tabs';
-import { LogoComponent } from './logo/logo.component';
-import { AboutUsComponent } from './about-us/about-us.component';
+import { ServiceSelectComponent } from './service-select/service-select.component';
+import { NavBarComponent } from './nav-bar/nav-bar.component';
+
 
 @NgModule({
   declarations: [
     AppComponent,
     HomepageComponent,
-    ShopComponent,
-    StyleComponent,
-    CartComponent,
-    NavBarComponent,
-    LogoComponent,
-    AboutUsComponent
+    ServiceSelectComponent,
+    NavBarComponent
   ],
   imports: [
     BrowserModule,
