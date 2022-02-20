@@ -1,6 +1,10 @@
 <div class="body">
+    
+    
+
 <div class="room-service">
-    <button class="btn"><div class="button-text">ROOM SERVICE</div>
+    
+    <button class="btn" ><div class="button-text">HOUSEKEEPING</div>
         <div class="img">
             <img class="maid-image" src="../assets/maid-image.jpg" />
         </div>
@@ -8,19 +12,50 @@
     
 </div>
 
+    
 <div class="toiletries">
-    <button class="btn"><div class="button-text">TOILETRIES</div>
+    <button class="btn" (click)="openToiletriesDropdown()"><div class="button-text" >TOILETRIES</div>
         <div class="img">
             <img class="toiletries-image" src="../assets/toiletries-image.jpg" />
         </div></button>
 </div>
+<div class="toiletries-select" >
+    <select *ngIf="toiletriesDropdown" class="select-menu">
+        <option>
+            Towels
+        </option>
+        <option>
+            Soap
+        </option>
+        <option>
+            Toilet paper
+        </option>
+    </select>
+    <input *ngIf="toiletriesDropdown" type="text"> 
+    
+</div>
 
 <div class="food">
-    <button class="btn"><div class="button-text">FOOD</div>
+    <button class="btn" (click)="openFoodDropdown()"><div class="button-text" >ROOM SERVICE</div>
         <div class="img">
     <img class="food-image" src="../assets/food-image.jpg" />
 </div></button>
     
+<div class="food-select" >
+    <select *ngIf="foodDropdown" class="select-menu">
+        <option>
+            Burger
+        </option>
+        <option>
+            Pizza
+        </option>
+        <option>
+            Salad
+        </option>
+    </select>
+    <input *ngIf="foodDropdown" type="text"> 
+    
+</div>
 </div>
 
 </div>

@@ -9,8 +9,8 @@ import { HomepageComponent } from './homepage/homepage.component';
 import { MatTabsModule } from '@angular/material/tabs';
 import { ServiceSelectComponent } from './service-select/service-select.component';
 import { NavBarComponent } from './nav-bar/nav-bar.component';
-
-
+import {MatMenu, MatMenuModule} from '@angular/material/menu'; 
+import {MatSelectModule} from '@angular/material/select'
 @NgModule({
   declarations: [
     AppComponent,
@@ -23,7 +23,10 @@ import { NavBarComponent } from './nav-bar/nav-bar.component';
     AppRoutingModule,
     FormsModule,
     HttpClientModule,
-    MatTabsModule
+    MatTabsModule,
+    MatMenuModule,
+    MatSelectModule
+    
   ],
   providers: [],
   bootstrap: [AppComponent]

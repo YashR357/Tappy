@@ -17,7 +17,7 @@ app.get("/", (req, res) => {
   res.json({ message: "Welcome to bezkoder application." });
 });
 // set port, listen for requests
-require("./app/routes/tutorial.routes")(app);
+require("./app/routes/guest.routes")(app);
 const PORT = process.env.PORT || 8080;
 app.listen(PORT, () => {
   console.log(`Server is running on port ${PORT}.`);
