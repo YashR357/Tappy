@@ -1,0 +1,28 @@
+
+input{
+color: #AC3B61 !important;
+  position: relative;
+    left:447px;
+    top:250px;
+    border:1px white;/*here change the color*/
+
+}
+input[type="text"]
+{
+    font-family: serif;
+    font-size:46px;
+}
+textarea:focus, input:focus{
+    outline: 0;
+}
+
+.box{
+      position: relative;
+      top:2px;
+      left: 1250px;
+}
+
+.text-box {
+    margin-left: 44vw;
+	 margin-top: 42vh;
+}
